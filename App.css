@@ -1,0 +1,140 @@
+.basic{
+  background-color: #fff;
+}
+.package-text{
+  font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 150%;
+color: #323232;
+}
+.price-rate{
+  font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 150%;
+color: #323232;
+}
+.feature-text{
+  background: #F5F5F5;
+}
+
+.month{
+  font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 150%;
+color: #636363;
+}
+.table1{
+  filter: drop-shadow(0px 4px 20px rgba(50, 50, 50, 0.2));
+}
+.promos{
+  margin-top: 200px;
+}
+.promo {
+  background: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.625;
+  color: #f9f9f9;
+  text-align: center;
+  display: inline;
+  float: left;
+  width: 33.333%;
+  margin: 1em 0 0;
+  border-radius :12px;
+}
+
+
+.scale{
+  transform: scale(1.1);
+}
+.promo.first {
+  border-right: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.promo.second {
+  float: right;
+  border-left: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+.second .feature {
+  border-radius: 0 0 12px 0;
+  padding: 30px 30px 30px 50px;
+}
+.first .feature {
+  border-radius: 0 12px 0 12px;
+  padding: 30px 50px 30px 30px;
+}
+.third .feature{
+  border-radius: 0 0 12px 12px;
+  padding: 30px 30px 30px 30px;
+}
+.feature{
+  padding: 30px 30px 30px 30px;
+  text-align: left;
+  list-style-type: none;
+  color: #636363;
+  background-color:   #F5F5F5;
+}
+.promo button {
+  padding: 0.5em 3.25em;
+  border: none;
+  border-radius: 4px;
+ cursor: pointer;
+  background: rgba(245, 194, 82, 0.1);
+  color: #FF9001;
+  border: 1px solid #FF9001;
+  border-radius: 8px;
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  width: 100%;
+  margin-top: 20px;
+}
+.scale {
+  transform: scale();
+  margin-top: -80px;
+  border: 2px solid #FF9001;
+}
+.scale .feature {
+  padding-bottom: 120px;
+}
+
+.fa-check{
+  font-size: 26px;font-weight: 400;
+}
+.popular{
+  background-color: #FF9001;
+  padding: 10px;
+  border-radius: 10px 10px 0 0 ;
+}
+
+@media(min-width:0px) and(max-width:767px){
+  .promo{
+    width:100% !important;
+  }
+}
+
+
+.active-tabs  {
+  background: white;
+  border-bottom: 1px solid transparent;
+}
+.content {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.active-content {
+  display: block;
+}
